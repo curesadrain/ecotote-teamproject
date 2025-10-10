@@ -4,6 +4,7 @@
   padding-left: 16px;
   padding-right: 16px;
 }
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .container {
@@ -12,6 +13,7 @@
     padding-right: 32px;
   }
 }
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
   .container {

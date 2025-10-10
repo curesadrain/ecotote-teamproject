@@ -1,10 +1,37 @@
 .advantages-subtitle {
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
     margin-bottom: 12px;
 }
 
 .advantages-title {
-    font-size: 48px;
+    font-size: 36px;
     margin-bottom: 20px;
 }
+
+.advantages-description {
+    margin-bottom: 48px;
+}
+
+/* .advantages-wrapper {} */
+
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.advantages-item {}
+
+.advantages-img {
+    border-radius: 32px;
+}
+
+.advantages-item-title {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 4px;
+}
+
+/* .advantages-item-text {} */

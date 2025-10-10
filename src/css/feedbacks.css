@@ -45,6 +45,7 @@
     color: var(--color-scheme-1-text);
     font-family: var(--font-family);
     text-align: left;
+    margin-top: auto;
 }
 
 
@@ -55,6 +56,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.feedbacks-main-list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 
 
 @media only screen and (min-width: 768px){

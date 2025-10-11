@@ -119,13 +119,14 @@
         display: block;
     }
 
-    .advantages-item {
-        width: calc((100% - 48px) / 3);
-    }
-
+    .advantages-item,
     .advantages-item-big {
         width: calc((100% - 48px) / 3);
     }
+
+    /* .advantages-item-big {
+        width: calc((100% - 48px) / 3);
+    } */
 
     .advantages-img,
     .advantages-img-big {

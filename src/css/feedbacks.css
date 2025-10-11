@@ -1,0 +1,121 @@
+.feedbacks-main-container{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.feedbacks-main-header{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: var(--color-scheme-1-text);
+    font-family: var(--second-family);
+    margin-bottom: 32px;
+}
+
+.feedbacks-main-list{
+    display: grid;
+    gap: 40px;
+}
+
+.feedbacks-icon-list{
+    display: flex;
+    gap: 4px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.feedbacks-main-list-header{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    color: var(--color-scheme-1-text);
+    font-family: var(--second-family);
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.feedbacks-main-list-text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--color-scheme-1-text);
+    font-family: var(--font-family);
+    text-align: left;
+    margin-top: auto;
+}
+
+
+.feedbacks-icon-list-item{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedbacks-main-list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .feedbacks-main-list{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 24px;
+        row-gap: 32px;
+    }
+
+    .feedbacks-main-container{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .feedbacks-icon-list{
+        margin-bottom: 24px;
+    }
+
+    .feedbacks-main-list-header{
+        margin-bottom: 24px;
+    }
+
+    .feedbacks-main-list-text{
+        margin-top: 0;
+    }
+    .feedbacks-main-list-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+
+    .feedbacks-main-container{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+    .feedbacks-main-list{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 24px;
+    }
+
+    .feedbacks-main-header{
+        max-width: 560px;
+        text-align: center;
+        font-size: 48px;
+        margin: 0 auto 80px auto;
+    }
+
+    .feedbacks-main-list-text{
+        margin-top: auto;
+    }
+}

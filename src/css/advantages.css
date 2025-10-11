@@ -1,5 +1,5 @@
 .advantages {
-    margin-bottom: 32px;
+    padding: 32px 0;
 }
 
 .advantages-subtitle {
@@ -45,7 +45,7 @@
 
 @media only screen and (min-width: 768px) {
     .advantages {
-        margin-bottom: 64px;
+        padding: 64px 0;
     }
 
     .advantages-subtitle {

@@ -109,6 +109,22 @@
     line-height: 1.6;
 }
 
+.footer-nav-item a:active {
+    color: #113916;
+    opacity: 0.6;
+}
+    
+.footer-tel:active,
+.footer-email:active {
+    color: #113916;
+    opacity: 0.6;
+}
+
+.footer-nav-item a:focus,
+.footer__nav-item a:focus {
+    text-decoration: underline;
+}
+
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -163,16 +179,7 @@
 /* Desktop */
 @media screen and (min-width: 1440px) {
 
-    .footer-nav-item a:active {
-        color: #113916;
-        opacity: 0.6;
-    }
-    
-    .footer-tel:active,
-    .footer-email:active {
-        color: #113916;
-        opacity: 0.6;
-    }
+
 
     .footer-logo {
         margin-bottom: 0;
@@ -249,6 +256,8 @@
         text-decoration: underline;
     }
 
+
+    
 
     /* Instagram */
     .footer-social-item:nth-child(1) .footer-social-link:hover .footer-social-icon {

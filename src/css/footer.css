@@ -114,6 +114,7 @@
 @media screen and (min-width: 768px) {
     .footer-logo-img {
         max-width: 164px;
+        height: 70px;
     }
 
 
@@ -161,6 +162,20 @@
 
 /* Desktop */
 @media screen and (min-width: 1440px) {
+
+    /* Nav links with :active */
+    .footer-nav-item a:active {
+        color: #113916;
+        opacity: 0.6;
+    }
+    
+        /* Contact links with :active */
+    .footer-tel:active,
+    .footer-email:active {
+        color: #113916;
+        opacity: 0.6;
+    }
+
     .footer-logo {
         margin-bottom: 0;
         flex-shrink: 0;

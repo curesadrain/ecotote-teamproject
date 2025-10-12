@@ -63,7 +63,6 @@
     transition: color 0.3s ease;
 }
 
-.btn-assortment-item:hover,
 .btn-assortment-item:focus {
     opacity: 50%;
     transition: opacity 0.3s ease;
@@ -129,5 +128,10 @@
     .text-line-kids {
         margin: 16px 0 38px 0;
 
+    }
+
+    .btn-assortment-item:hover {
+        opacity: 50%;
+        transition: opacity 0.3s ease;
     }
 }

@@ -1,0 +1,158 @@
+.herocon {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.hero-title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #030a06;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-dscr {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #030a06;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+    border: 1px solid #030a06;
+    border-radius: 6px;
+    padding: 12px 24px;
+    width: 288px;
+    height: 50px;
+    background: #030a06;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 23px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+.hero-button:hover {
+    opacity: 50%;
+    transform: scale(1.03);
+}
+
+.hero-button:active {
+    background: #113916;
+    transform: scale(0.97);
+}
+
+.hero-button:focus {
+    outline: none;
+}
+
+.hero-img {
+    border-radius: 40px;
+    width: 288px;
+    height: 285px;
+}
+
+@media screen and (min-width:768px) {
+
+.herocon {
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 64px;
+}
+
+.tab {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.hero-title {
+    padding-right: 0;
+    margin-bottom: 0; 
+    flex-direction: column;
+}
+
+
+.hero-dscr { 
+    margin-bottom: 32px;
+}
+
+.hero-button {
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 16px;
+    width: 148px;
+    height: 50px;
+    padding: 12px 24px;
+}
+
+.tab {
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    width: 704px;
+    height: 267px;
+}
+
+}
+
+@media screen and (min-width:1440px) {
+.herocon {
+    padding-top: 32px;
+    padding-right: 64px;
+    padding-left: 64px;
+    padding-bottom: 64px;
+}
+    
+.tab {
+    gap: 32px;
+}
+    
+.hero-title {
+    font-size: 56px;
+    width: 640px;
+}
+
+.hero-dscr {
+    margin-bottom: 32px;
+    width: 640px;
+}
+    
+.hero-button {
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 16px;
+    width: 148px;
+    height: 50px;
+    padding: 12px 24px;
+}
+    
+.tab {
+    margin-bottom: 20px;
+}
+    
+.hero-img {
+    width: 1312px;
+    height: 498px;
+}
+
+}

@@ -1,1 +1,33 @@
-<section class="hero">HERO</section>
+<section class="hero">
+    <div class="container herocon">
+        <div class="tab">
+            <h1 class="hero-title"><span lang="en">EcoTote</span> — Стиль, що не шкодить планеті.</h1>
+           <div class="dscr-but">
+                <p class="hero-dscr">Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та відповідальність разом з EcoTote.</p>
+                <button 
+                   class="hero-button"
+                   type="button">
+                   <a href="#assortment">Купити зараз</a>
+                  </button>
+           </div>
+        </div>
+        <picture>
+            <source srcset="
+              ./img/hero/hero-mob-1x.webp 1x,
+              ./img/hero/hero-mob-2x.webp 2x
+            " media="(max-width: 767px)" />       
+
+            <source srcset="
+              ./img/hero/hero-tab-1x.webp 1x,
+              ./img/hero/hero-tab-2x.webp 2x
+            " media="(min-width: 768px) and (max-width: 1439px)" />
+            
+            <source srcset="
+              ./img/hero/hero-desk-1x.webp 1x,
+              ./img/hero/hero-desk-2x.webp 2x
+            " media="(min-width: 1440px)" />
+        
+            <img class="hero-img" src="./img/hero/hero-desk-1x.webp" alt="Сумки" width="1312" />
+        </picture>
+    </div>
+</section>

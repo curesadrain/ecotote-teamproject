@@ -274,43 +274,6 @@
         background-color: #113916;
     }
 
-    /* Contact */
-    .footer-tel,
-    .footer-email {
-        position: relative;
-    }
-
-    .footer-tel::after,
-    .footer-email::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: -2px;
-        width: 100%;
-        height: 2px;
-        background-color: #030a06;
-        opacity: 0;
-    }
-
-    .footer-tel:hover::after,
-    .footer-tel:focus::after,
-    .footer-email:hover::after,
-    .footer-email:focus::after {
-        opacity: 1;
-    }
-
-    .footer-tel:active,
-    .footer-email:active {
-        color: #113916;
-        opacity: 0.6;
-    }
-
-    .footer-tel:active::after,
-    .footer-email:active::after {
-        background-color: #113916;
-    }
-
-
 
     /* Instagram */
     .footer-social-item:nth-child(1) .footer-social-link:hover .footer-social-icon {

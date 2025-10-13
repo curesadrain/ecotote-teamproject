@@ -1,1 +1,87 @@
-<section class="support">SUPPORT</section>
+<section class="support">
+  <div class="container">
+    <div class="container-support">
+      <h2 class="support-title">Залишились питання?Зв'яжіться з нами!</h2>
+      <p class="subtitle">Ми тут, щоб допомогти!</p>
+      <form class="support-form">
+        <label class="support-label">
+          Ім’я
+          <input
+            type="text"
+            placeholder="Іван"
+            minlength="5"
+            maxlength="64"
+            required
+            class="support-input-name"
+          />
+          <span class="text-valid">Чудово! Ім’я вказане вірно</span>
+          <span class="text-invalid">Нажаль Ім’я вказана невірно</span>
+        </label>
+
+        <label class="support-label">
+          Електронна пошта
+          <input
+            type="email"
+            placeholder="hello@ecotote.com"
+            pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            required
+            class="support-input-email"
+          />
+          <span class="text-valid">Чудово! Електронна пошта вказана вірно</span>
+          <span class="text-invalid"
+            >Нажаль електронна пошта вказана невірно</span
+          >
+        </label>
+
+        <label class="support-label">
+          Повідомлення
+          <textarea
+            placeholder="Введіть своє повідомлення..."
+            minlength="3"
+            maxlength="500"
+            required
+            class="support-textarea"
+          ></textarea>
+          <span class="text-valid"
+            >Чудово! Ваше повідомлення важливе для нас!</span
+          >
+          <span class="text-invalid"
+            >Нажаль ваше повідомлення за надто коротке</span
+          >
+        </label>
+
+        <button type="submit" class="support-button" disabled>Надіслати</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          /img/support/sup-desk-1x.webp 1x,
+          /img/support/sup-desk-2x.webp 2x
+        "
+        type="image/webp"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          /img/support/sup-tab-1x.webp 1x,
+          /img/support/sup-tab-2x.webp 2x
+        "
+        type="image/webp"
+      />
+      <img
+        srcset="
+          /img/support/sup-mob-1x.webp 1x,
+          /img/support/sup-mob-2x.webp 2x
+        "
+        src="/img/support/sup-mob-1x.webp"
+        alt="Сумки"
+        class="support-img"
+        width="288"
+        height="428"
+        loading="lazy"
+      />
+    </picture>
+  </div>
+</section>

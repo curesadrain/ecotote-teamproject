@@ -1,0 +1,160 @@
+.support {
+  padding: 32px 0;
+}
+/* --------------------------------text------------------------------ */
+.support-title {
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+/* ------------------------------Form----------------------------- */
+
+.support-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.support-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.support-input-name,
+.support-input-email,
+.support-textarea {
+  padding: 8px 12px;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  background: rgba(3, 10, 6, 0.05);
+  resize: vertical;
+
+  outline: none;
+}
+
+.support-textarea {
+  min-height: 180px;
+}
+
+/* -----------------------------Valid and invalid ----------------------------- */
+
+.support-input-name:not(:placeholder-shown):invalid,
+.support-input-email:not(:placeholder-shown):invalid,
+.support-textarea:not(:placeholder-shown):invalid {
+  border-color: red;
+  color: red;
+}
+
+.support-input-name:not(:placeholder-shown):valid,
+.support-input-email:not(:placeholder-shown):valid,
+.support-textarea:not(:placeholder-shown):valid {
+  border-color: green;
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  display: none;
+}
+
+.text-valid {
+  color: green;
+}
+
+.text-invalid {
+  color: red;
+}
+.support-input-name:not(:placeholder-shown):valid ~ .text-valid,
+.support-input-email:not(:placeholder-shown):valid ~ .text-valid,
+.support-textarea:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+.support-input-name:not(:placeholder-shown):invalid ~ .text-invalid,
+.support-input-email:not(:placeholder-shown):invalid ~ .text-invalid,
+.support-textarea:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+/* -----------------------------------Button----------------------------------- */
+.support-button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+}
+
+/* ===== TABLET (768px+) ===== */
+@media (min-width: 768px) {
+  .support-title {
+    width: 468px;
+  }
+  /* -----------------------------Form----------------------------- */
+  .support-img {
+    min-width: 704px;
+  }
+  /* -------------------------------Button----------------------------- */
+  .support-button {
+    width: 249px;
+  }
+}
+
+/* ===== DESKTOP (1440px+) ===== */
+@media (min-width: 1440px) {
+  .support .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact {
+    gap: 48px;
+    padding: 60px 80px;
+  }
+  .support-title {
+    width: 644px;
+  }
+  /* -----------------------------Form----------------------------- */
+  .support-form {
+    margin: 0;
+  }
+  .support-label {
+    font-size: 16px;
+  }
+  .support-img {
+    min-width: 644px;
+  }
+
+  /* -------------------------------Button----------------------------- */
+  .support-button {
+    width: 198px;
+    font-size: 16px;
+  }
+  .support-button:hover,
+  .support-button:focus {
+    background: #030a06;
+    opacity: 0.5;
+  }
+  .support-button:active {
+    background: #113916;
+    opacity: 0.6;
+  }
+
+  /* ------------------------------Disabled button----------------------------- */
+  .support-button:disabled {
+    background: #030a06;
+    opacity: 0.2;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .support-form:has(.support-input-name:valid):has(
+      .support-input-email:valid
+    ):has(.support-textarea:valid)
+    .support-button:disabled {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

@@ -4,15 +4,14 @@
 }
 
 .hero-title {
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
     font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    color: #030a06;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.dscr-but {
+    font-weight: 400;
 }
 
 .hero-dscr {
@@ -40,7 +39,7 @@
     font-size: 16px;
     line-height: 1.6;
     color: #fff;
-    margin-bottom: 23px;
+    margin-bottom: 24px;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -74,12 +73,13 @@
     padding-bottom: 64px;
 }
 
-.tab {
+.hero-tab {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
     gap: 24px;
+    margin-bottom: 20px;
 }
 
 .hero-title {
@@ -101,10 +101,7 @@
     width: 148px;
     height: 50px;
     padding: 12px 24px;
-}
-
-.tab {
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .hero-img {
@@ -122,8 +119,9 @@
     padding-bottom: 64px;
 }
     
-.tab {
+.hero-tab {
     gap: 32px;
+    margin-bottom: 20px;
 }
     
 .hero-title {
@@ -144,10 +142,6 @@
     width: 148px;
     height: 50px;
     padding: 12px 24px;
-}
-    
-.tab {
-    margin-bottom: 20px;
 }
     
 .hero-img {

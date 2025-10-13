@@ -27,11 +27,6 @@
 }
 
 .about-subtitle {
-    font-family: "Comfortaa", sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
     text-align: center;
     color: #fff;
     margin-bottom: 20px;
@@ -72,9 +67,8 @@
 
     .about-dscr {
        max-width: 573px;
-       display: inline-block;
-       margin-right: 97px;
-       margin-left: 98px;
+       display: block;
+       margin: 0 auto;
     }
 }
 
@@ -110,7 +104,7 @@
     
         .about-dscr {
             width: 573px;
-            display: inline-block;
+            display: block;
         }
 
 }

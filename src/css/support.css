@@ -32,7 +32,7 @@
   border: 1px solid rgba(3, 10, 6, 0.15);
   border-radius: 6px;
   background: rgba(3, 10, 6, 0.05);
-  resize: vertical;
+  resize: none;
 
   outline: none;
 }

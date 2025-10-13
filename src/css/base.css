@@ -54,6 +54,10 @@
   --second-family: 'Comfortaa', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif;
   color: #030a06;

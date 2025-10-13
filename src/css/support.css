@@ -90,6 +90,9 @@
 
 /* ===== TABLET (768px+) ===== */
 @media (min-width: 768px) {
+  .support {
+  padding: 64px 0;
+}
   .support-title {
     width: 468px;
   }

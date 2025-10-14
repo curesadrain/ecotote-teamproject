@@ -16,8 +16,12 @@ margin-bottom: 24px;
 }
 
 .support-subtitle {
+font-family: "Fira Sans", sans-serif;
+font-weight: 400;
 font-size: 18px;
-margin-bottom: 32px;
+line-height: 160%;
+color: #030a06;
+margin-bottom: 32px
 }
 
 .support-form {
@@ -41,19 +45,23 @@ margin-bottom: 32px;
   resize: none;
   outline: none;
   width: 100%;
+  transition: all 0.3s ease;
+   height: 42px;
 }
 
 .support-textarea {
 border: 1px solid rgba(3, 10, 6, 0.15);
 border-radius: 6px;
-padding: 12px;
+padding: 8px 12px;
 width: 100%;
 min-height: 180px; 
 background: rgba(3, 10, 6, 0.05); 
 outline: none;
 resize: none;
-transition: 0.3s linear;
+transition: all 0.3s ease;
+height: 42px;
 }
+
 
 .support-textarea:focus {
     border: 1px solid rgba(3, 10, 6, 0.15);
@@ -75,6 +83,18 @@ outline: transparent;
 transition: 0.3s linear;
 }
 
+.support-input:focus::placeholder,
+.support-textarea:focus::placeholder {
+  color: transparent;
+  transition: color 0.2s ease;
+}
+
+.support-input::placeholder,
+.support-textarea::placeholder {
+  color: rgba(3, 10, 6, 0.5);
+  transition: color 0.2s ease;
+}
+
 .text-error {
 font-weight: 400;
 font-size: 12px;
@@ -82,8 +102,6 @@ line-height: 160%;
 color: #d64040;  
 display: none;  
 }
-
-
 
 .support-input:not(:placeholder-shown):invalid ~ .text-error {
 display: block;    
@@ -97,11 +115,13 @@ padding: 8px 12px;
 width: 100%;
 height: 42px;
 background: rgba(3, 10, 6, 0.05);
+color: #d64040;
 }
 
 .support-input:not(:placeholder-shown):valid,
 .support-textarea:not(:placeholder-shown):valid {
   border-color: green;
+   color: #030a06;
 }
 
 
@@ -116,13 +136,14 @@ background: rgba(3, 10, 6, 0.05);
 
 .support-button:hover,
 .support-button:focus {
- background: #030a06;
- opacity: 0.5;
+background: #030a06;
+opacity: 50%;
+outline: none;
 }
 
 .support-button:active {
- background: #113916;
- opacity: 0.6;
+background: #113916;
+transform: scale(0.97);
 }
 
 .support-button:disabled {
@@ -130,6 +151,16 @@ background: rgba(3, 10, 6, 0.05);
   opacity: 0.2;
   pointer-events: none;
   transition: all 0.3s ease;
+}
+
+.support-form:invalid .support-button {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.support-form:valid .support-button {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* ----TABLET----- */

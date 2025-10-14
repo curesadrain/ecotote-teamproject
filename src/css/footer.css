@@ -109,22 +109,6 @@
     line-height: 1.6;
 }
 
-.footer-nav-item a:active {
-    color: #113916;
-    opacity: 0.6;
-}
-
-.footer-tel:active,
-.footer-email:active {
-    color: #113916;
-    opacity: 0.6;
-}
-
-.footer-nav-item a:focus,
-.footer__nav-item a:focus {
-    text-decoration: underline;
-}
-
 
 /* Tablet */
 @media screen and (min-width: 768px) {
@@ -178,9 +162,6 @@
 
 /* Desktop */
 @media screen and (min-width: 1440px) {
-
-
-
     .footer-logo {
         margin-bottom: 0;
         flex-shrink: 0;
@@ -280,15 +261,27 @@
         filter: brightness(0) saturate(100%) invert(37%) sepia(89%) saturate(2476%) hue-rotate(299deg) brightness(92%) contrast(95%);
         transform: scale(1.2);
     }
+    .footer-social-item:nth-child(1) .footer-social-link:focus .footer-social-icon {
+        filter: brightness(0) saturate(100%) invert(37%) sepia(89%) saturate(2476%) hue-rotate(299deg) brightness(92%) contrast(95%);
+        transform: scale(1.2);
+    }
 
     /* LinkedIn */
     .footer-social-item:nth-child(2) .footer-social-link:hover .footer-social-icon {
         filter: brightness(0) saturate(100%) invert(27%) sepia(93%) saturate(2673%) hue-rotate(195deg) brightness(93%) contrast(101%);
         transform: scale(1.2);
     }
+    .footer-social-item:nth-child(2) .footer-social-link:focus .footer-social-icon {
+        filter: brightness(0) saturate(100%) invert(27%) sepia(93%) saturate(2673%) hue-rotate(195deg) brightness(93%) contrast(101%);
+        transform: scale(1.2);
+    }
 
     /* Youtube */
     .footer-social-item:nth-child(3) .footer-social-link:hover .footer-social-icon {
+        filter: brightness(0) saturate(100%) invert(16%) sepia(94%) saturate(7084%) hue-rotate(5deg) brightness(101%) contrast(118%);
+        transform: scale(1.2);
+    }
+    .footer-social-item:nth-child(3) .footer-social-link:focus .footer-social-icon {
         filter: brightness(0) saturate(100%) invert(16%) sepia(94%) saturate(7084%) hue-rotate(5deg) brightness(101%) contrast(118%);
         transform: scale(1.2);
     }

@@ -166,6 +166,7 @@ margin: auto 0;
 
 .support .container {
     display: flex;
+    
     justify-content: space-between;
   }
 

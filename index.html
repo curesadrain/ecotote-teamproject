@@ -23,6 +23,12 @@
       rel="stylesheet"
     />
 
+    <!-- AOS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+      rel="stylesheet"
+    />
+
     <script type="module" crossorigin src="/ecotote-teamproject/index.js"></script>
     <link rel="stylesheet" crossorigin href="/ecotote-teamproject/assets/index-lHS2u-cH.css">
   </head>
@@ -167,7 +173,7 @@
   <div class="container">
     <h2 class="title-assortment">Наші сумки</h2>
     <ul class="assortment-list">
-      <li class="assortment-item">
+      <li class="assortment-item" data-aos="zoom-in-up">
         <img
           class="img-assortment"
           srcset="/ecotote-teamproject/assets/asrt-class-1x-5JvDJUuz.webp 1x, /ecotote-teamproject/assets/asrt-class-2x-5szdb5ka.webp 2x"
@@ -189,7 +195,7 @@
         </div>
         <button class="btn-assortment-item">Купити</button>
       </li>
-      <li class="assortment-item">
+      <li class="assortment-item" data-aos="zoom-in-up" data-aos-delay="100">
         <img
           class="img-assortment"
           srcset="/ecotote-teamproject/assets/asrt-shop-1x-BIUG4ZKF.webp 1x, /ecotote-teamproject/assets/asrt-shop-2x-ihqRFQIR.webp 2x"
@@ -211,7 +217,7 @@
         </div>
         <button class="btn-assortment-item">Купити</button>
       </li>
-      <li class="assortment-item">
+      <li class="assortment-item" data-aos="zoom-in-up" data-aos-delay="200">
         <img
           class="img-assortment"
           srcset="/ecotote-teamproject/assets/asrt-urb-1x-3L-fran3.webp 1x, /ecotote-teamproject/assets/asrt-urb-2x-CxFYn3x5.webp 2x"
@@ -233,7 +239,7 @@
         </div>
         <button class="btn-assortment-item">Купити</button>
       </li>
-      <li class="assortment-item">
+      <li class="assortment-item" data-aos="zoom-in-up" data-aos-delay="300">
         <img
           class="img-assortment"
           srcset="/ecotote-teamproject/assets/asrt-cross-1x-ZTRrm0nY.webp 1x, /ecotote-teamproject/assets/asrt-cross-2x-P_7Vz_lU.webp 2x"
@@ -255,7 +261,7 @@
         </div>
         <button class="btn-assortment-item">Купити</button>
       </li>
-      <li class="assortment-item">
+      <li class="assortment-item" data-aos="zoom-in-up" data-aos-delay="400">
         <img
           class="img-assortment"
           srcset="/ecotote-teamproject/assets/asrt-lunch-1x-q8010gfV.webp 1x, /ecotote-teamproject/assets/asrt-lunch-1x-q8010gfV.webp 2x"
@@ -277,7 +283,7 @@
         </div>
         <button class="btn-assortment-item">Купити</button>
       </li>
-      <li class="assortment-item">
+      <li class="assortment-item" data-aos="zoom-in-up" data-aos-delay="500">
         <img
           class="img-assortment"
           srcset="/ecotote-teamproject/assets/asrt-beach-1x-BfrPzX6h.webp 1x, /ecotote-teamproject/assets/asrt-beach-2x-C4INt3kr.webp 2x"
@@ -299,7 +305,7 @@
         </div>
         <button class="btn-assortment-item">Купити</button>
       </li>
-      <li class="assortment-item">
+      <li class="assortment-item" data-aos="zoom-in-up" data-aos-delay="600">
         <img
           class="img-assortment"
           srcset="/ecotote-teamproject/assets/asrt-travel-1x-CW5GAAfl.webp 1x, /ecotote-teamproject/assets/asrt-travel-2x-CAM82UPr.webp 2x"
@@ -321,7 +327,7 @@
         </div>
         <button class="btn-assortment-item">Купити</button>
       </li>
-      <li class="assortment-item">
+      <li class="assortment-item" data-aos="zoom-in-up" data-aos-delay="700">
         <img
           class="img-assortment"
           srcset="/ecotote-teamproject/assets/asrt-kids-1x-ZzNTm0aH.webp 1x, /ecotote-teamproject/assets/asrt-kids-2x-v9CUyvcX.webp 2x"
@@ -594,6 +600,15 @@
   </div>
 </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        if (window.AOS) {
+          AOS.init({ once: true });
+        }
+      });
+    </script>
 
   </body>
 </html>

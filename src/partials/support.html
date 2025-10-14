@@ -1,81 +1,87 @@
-
 <section class="support">
-    <div class="container">
-      <div class="support-left">  
-        <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
-        <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>      
+  <div class="container">
+    <div class="support-left">
+      <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+      <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
       <div class="form">
         <form class="support-form">
-            <div class="support-label">
-                <label 
-                for="user-name"
-                class="support-input-label">Ім'я</label>
-                <input
-                type="text"
-                class="support-input"
-                name="user-name"
-                id="user-name"
-                required 
-                minlength="5" 
-                maxlength="64"
-                placeholder="Іван"/>
-                 <p class="text-error">Потрібно мінімум 5 символів</p>
-            </div>
-            <div class="support-label">
-                <label 
-                for="user-email"
-                class="support-input-label">Електронна пошта</label>
-                <input
-                type="email"
-                class="support-input"
-                name="user-email"
-                id="user-email"
-                required 
-                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-                placeholder="hello@ecotote.com"/>
-                <p class="text-error">Електронна пошта вказана невірно</p>
-            </div>
-            <div class="support-label">
-                <label 
-                for="user-comment"
-                class="support-input-label">Повідомлення</label>
-                <textarea 
-                name="user-comment" 
-                id="user-comment"
-                maxlength="500"
-                class="support-textarea"
-                placeholder="Введіть своє повідомлення..."
-                ></textarea>   
-            </div>          
-                <button type="submit" id="submit-btn" class="support-button">Надіслати</button>         
+          <div class="support-label">
+            <label for="user-name" class="support-input-label">Ім'я</label>
+            <input
+              type="text"
+              class="support-input"
+              name="user-name"
+              id="user-name"
+              required
+              minlength="5"
+              maxlength="64"
+              placeholder="Іван"
+            />
+            <p class="text-error">Мінімум 5 символів</p>
+          </div>
+          <div class="support-label">
+            <label for="user-email" class="support-input-label"
+              >Електронна пошта</label
+            >
+            <input
+              type="email"
+              class="support-input"
+              name="user-email"
+              id="user-email"
+              required
+              pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+              placeholder="hello@ecotote.com"
+            />
+            <p class="text-error">Електронна пошта вказана невірно</p>
+          </div>
+          <div class="support-label">
+            <label for="user-comment" class="support-input-label"
+              >Повідомлення</label
+            >
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              maxlength="500"
+              class="support-textarea"
+              placeholder="Введіть своє повідомлення..."
+            ></textarea>
+          </div>
+          <button type="submit" id="submit-btn" class="support-button">
+            Надіслати
+          </button>
         </form>
-        </div>
-        </div> 
-        <div class="support-right">
-           <picture>
-           <source 
-            srcset="
-              /img/support/sup-desk-1x.webp 1x,
-              /img/support/sup-desk-2x.webp 2x"
-            media="(min-width: 1440px)"
-            type="image/webp">
-           <source
-            srcset="
-              /img/support/sup-tab-1x.webp 1x,
-              /img/support/sup-tab-2x.webp 2x"
-            media="(min-width: 768px)"
-            type="image/webp">
-            
-           <img 
-            srcset="
-              /img/support/sup-mob-1x.webp 1x,
-              /img/support/sup-mob-2x.webp 2x"
-            src="/img/support/sup-mob-1x.webp"
-            width="644"
-            height="767"
-            alt="Студійний простір з ескізами, зразками тканин, ножицями та напівготовою еко-сумкою на робочому столі">
-         </picture>
-        </div>        
+      </div>
     </div>
-</section>
+    <div class="support-right">
+      <picture>
+        <source
+          srcset="
+            /img/support/sup-desk-1x.webp 1x,
+            /img/support/sup-desk-2x.webp 2x
+          "
+          media="(min-width: 1440px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /img/support/sup-tab-1x.webp 1x,
+            /img/support/sup-tab-2x.webp 2x
+          "
+          media="(min-width: 768px)"
+          type="image/webp"
+        />
 
+        <img
+          srcset="
+            /img/support/sup-mob-1x.webp 1x,
+            /img/support/sup-mob-2x.webp 2x
+          "
+          src="/img/support/sup-mob-1x.webp"
+          width="644"
+          height="767"
+          alt="Студійний простір з ескізами, зразками тканин, ножицями та напівготовою еко-сумкою на робочому столі"
+        />
+      </picture>
+    </div>
+  </div>
+</section>

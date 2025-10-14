@@ -1,0 +1,110 @@
+.about {
+    background-image:  url(/img/about/about-mob-1x.webp);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    max-width: 320px;
+    margin: 0 auto;
+
+      @media screen and (min-resolution: 2x),
+        (-webkit-device-pixel-ratio: 2) {
+            background-image: url(/img/about/about-mob-2x.webp);  
+        }
+}
+
+
+
+.about-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.about-subtitle {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.about-dscr {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (min-width:768px) {
+    .about { 
+        padding-top: 80px;
+        padding-bottom: 80px;
+        max-width: 768px;
+        background-image: url(/img/about/about-tab-1x.webp);
+
+            @media screen and (min-resolution: 2x),
+            (-webkit-device-pixel-ratio: 2) {
+            background-image: url(/img/about/about-tab-2x.webp);
+            }
+    }
+
+    .about-con {
+        padding: 0;
+    }
+
+    .about-title {
+        margin-bottom: 16px;
+    }
+
+    .about-subtitle {
+        margin-bottom: 24px;
+    }
+
+    .about-dscr {
+       max-width: 573px;
+       display: block;
+       margin: 0 auto;
+    }
+}
+
+
+
+
+@media screen and (min-width:1440px) {
+    .about {
+        padding-top: 112px;
+        padding-bottom: 94px;
+        padding-right: 336px;
+        padding-left: 336px;
+        max-width: 1440px;
+        background-image: url(/img/about/about-desk-1x.webp);
+    
+            @media screen and (min-resolution: 2x),
+            (-webkit-device-pixel-ratio: 2) {
+            background-image: url(/img/about/about-desk-2x.webp);
+            }
+    }
+
+        .about-title {
+            margin-bottom: 16px;
+        }
+    
+        .about-subtitle {
+            margin-bottom: 24px;
+            margin-left: 70px;
+            margin-right: 69px;
+            max-width: 629px;
+            font-size: 56px;
+        }
+    
+        .about-dscr {
+            width: 573px;
+            display: block;
+        }
+
+}

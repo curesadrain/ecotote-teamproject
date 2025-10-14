@@ -1,0 +1,137 @@
+.assortment {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.title-assortment {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 32px;
+
+
+}
+
+.assortment-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.assortment-item {
+    max-width: 288px;
+}
+
+.title-assortment-item {
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+    line-height: 1.6;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.info-assortment-item {
+    margin: 16px 0;
+}
+
+.text-assortment-item {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.price-assortment-item {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.btn-assortment-item {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width: 288px;
+    padding: 7px 117px;
+    border: 1px solid rgba(3, 10, 6, 1);
+    border-radius: 6px;
+    background-color: transparent;
+    color: rgba(3, 10, 6, 1);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.btn-assortment-item:focus {
+    opacity: 50%;
+    transition: opacity 0.3s ease;
+}
+
+.btn-assortment-item:active {
+    opacity: 60%;
+    color: rgba(17, 57, 22, 1);
+    transition: color 0.4s ease;
+}
+
+
+/* ----------Медіазапити---------- */
+@media (min-width: 768px) {
+    .assortment {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .text-line-lunch {
+        margin: 16px 0 38px 0;
+
+    }
+
+    .assortment-item {
+        max-width: 340px;
+    }
+
+    .assortment-list {
+        gap: 48px 24px;
+    }
+
+    .img-assortment {
+        width: 340px;
+    }
+
+    .btn-assortment-item {
+        width: 340px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .title-assortment {
+        font-size: 48px;
+    }
+
+    .img-assortment {
+        width: 310px;
+    }
+
+    .btn-assortment-item {
+        width: 310px;
+    }
+
+    .assortment-item {
+        max-width: 310px;
+    }
+
+    .assortment-list {
+        gap: 64px 24px;
+    }
+
+    .text-line-kids {
+        margin: 16px 0 38px 0;
+
+    }
+
+    .btn-assortment-item:hover {
+        opacity: 50%;
+        transition: opacity 0.3s ease;
+    }
+}

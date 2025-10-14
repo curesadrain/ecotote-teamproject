@@ -30,7 +30,7 @@
     />
 
     <script type="module" crossorigin src="/ecotote-teamproject/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/ecotote-teamproject/assets/index-Lrg7YKAZ.css">
+    <link rel="stylesheet" crossorigin href="/ecotote-teamproject/assets/index-CeMmBxkY.css">
   </head>
   <body>
     <header class="header">HEADER</header>
@@ -497,7 +497,81 @@
   </div>
 </section>
 
-      <section class="support">SUPPORT</section>
+      
+<section class="support">
+    <div class="container">
+      <div class="support-left">  
+        <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+        <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>      
+      <div class="form">
+        <form class="support-form">
+            <div class="support-label">
+                <label 
+                for="user-name"
+                class="support-input-label">Ім'я</label>
+                <input
+                type="text"
+                class="support-input"
+                name="user-name"
+                id="user-name"
+                required 
+                minlength="5" 
+                maxlength="64"
+                placeholder="Іван"/>
+                 <p class="text-error">Потрібно мінімум 5 символів</p>
+            </div>
+            <div class="support-label">
+                <label 
+                for="user-email"
+                class="support-input-label">Електронна пошта</label>
+                <input
+                type="email"
+                class="support-input"
+                name="user-email"
+                id="user-email"
+                required 
+                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                placeholder="hello@ecotote.com"/>
+                <p class="text-error">Електронна пошта вказана невірно</p>
+            </div>
+            <div class="support-label">
+                <label 
+                for="user-comment"
+                class="support-input-label">Повідомлення</label>
+                <textarea 
+                name="user-comment" 
+                id="user-comment"
+                maxlength="500"
+                class="support-textarea"
+                placeholder="Введіть своє повідомлення..."
+                ></textarea>   
+            </div>          
+                <button type="submit" id="submit-btn" class="support-button">Надіслати</button>         
+        </form>
+        </div>
+        </div> 
+        <div class="support-right">
+           <picture>
+           <source 
+            srcset="/ecotote-teamproject/assets/sup-desk-1x-DVUAgbs4.webp 1x, /ecotote-teamproject/assets/sup-desk-2x-xLPHXNd8.webp 2x"
+            media="(min-width: 1440px)"
+            type="image/webp">
+           <source
+            srcset="/ecotote-teamproject/assets/sup-tab-1x-BJ4OZ6D1.webp 1x, /ecotote-teamproject/assets/sup-tab-2x-BjSAKBNy.webp 2x"
+            media="(min-width: 768px)"
+            type="image/webp">
+            
+           <img 
+            srcset="/ecotote-teamproject/assets/sup-mob-1x-CeX4B8u5.webp 1x, /ecotote-teamproject/assets/sup-mob-2x-BoWEboAg.webp 2x"
+            src="/ecotote-teamproject/assets/sup-mob-1x-CeX4B8u5.webp"
+            width="644"
+            height="767"
+            alt="Студійний простір з ескізами, зразками тканин, ножицями та напівготовою еко-сумкою на робочому столі">
+         </picture>
+        </div>        
+    </div>
+</section>
+
 
     </main>
 

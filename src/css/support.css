@@ -127,16 +127,25 @@ color: #d64040;
 
 .support-button {
  padding: 12px 18px;
-  border: none;
   border-radius: 6px;
-  background: #000;
+ background: #030a06;
   color: #fff;
-  width: 100%;   
+  border: 1px solid #030a06;
+  width: 100%; 
+   height: 50px; 
+    font-size: 16px;
+     line-height: 1.6;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap; 
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .support-button:hover,
 .support-button:focus {
-background: #030a06;
 opacity: 50%;
 outline: none;
 }
@@ -186,6 +195,17 @@ margin: auto 0;
   width: 100%;
 }
 
+.support-button {
+   align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 16px;
+    width: 249px;
+    height: 50px;
+    padding: 12px 24px;
+    margin: 24px 0;
+}
+
 
 }
 
@@ -223,6 +243,23 @@ margin: auto 0;
     height: auto; 
     border-radius: 40px; 
 }
+
+.support-button {
+   align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    gap: 16px;
+    width: 198px;
+    height: 50px;
+    padding: 12px 24px;
+}
+
+.support-button:hover {
+ opacity: 50%;
+    transform: scale(1.03); 
+}
+
+
 
 }
 

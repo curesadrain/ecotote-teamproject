@@ -50,7 +50,8 @@
         position: relative;
         column-gap: 26px;
         row-gap: 24px;
-        
+        margin-bottom: 24px;
+      
     }
 
     .gallery-img-list-item:nth-child(1), .gallery-img-list-item:nth-child(1) img {

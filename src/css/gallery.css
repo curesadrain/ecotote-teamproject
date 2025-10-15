@@ -10,7 +10,7 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: var(--color-scheme-3-text);
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .gallery-main-text{
@@ -44,14 +44,17 @@
         padding-bottom: 64px;
     }
     
+    .gallery-main-header{
+        font-size: 48px;
+        margin-bottom: 24px;
+    }
     .gallery-img-list{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         position: relative;
         column-gap: 26px;
         row-gap: 24px;
-        margin-bottom: 24px;
-      
+       
     }
 
     .gallery-img-list-item:nth-child(1), .gallery-img-list-item:nth-child(1) img {

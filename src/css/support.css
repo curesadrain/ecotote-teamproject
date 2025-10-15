@@ -3,25 +3,26 @@
 .support {
   display: flex;
   flex-direction: column;
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
   justify-content: space-between;
 }
 
 .support-left {
-margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .support-title {
-margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .support-subtitle {
-font-family: "Fira Sans", sans-serif;
-font-weight: 400;
-font-size: 18px;
-line-height: 160%;
-color: #030a06;
-margin-bottom: 32px
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #030a06;
+  margin-bottom: 32px;
 }
 
 .support-form {
@@ -34,11 +35,11 @@ margin-bottom: 32px
 .support-input-label {
   display: flex;
   flex-direction: column;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .support-input {
- padding: 8px 12px;
+  padding: 8px 12px;
   border: 1px solid rgba(3, 10, 6, 0.15);
   border-radius: 6px;
   background: rgba(3, 10, 6, 0.05);
@@ -46,41 +47,40 @@ margin-bottom: 32px
   outline: none;
   width: 100%;
   transition: all 0.3s ease;
-   height: 42px;
+  height: 42px;
 }
 
 .support-textarea {
-border: 1px solid rgba(3, 10, 6, 0.15);
-border-radius: 6px;
-padding: 8px 12px;
-width: 100%;
-min-height: 180px; 
-background: rgba(3, 10, 6, 0.05); 
-outline: none;
-resize: none;
-transition: all 0.3s ease;
-height: 42px;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  padding: 8px 12px;
+  width: 100%;
+  min-height: 180px;
+  background: rgba(3, 10, 6, 0.05);
+  outline: none;
+  resize: none;
+  transition: all 0.3s ease;
+  height: 42px;
 }
 
-
 .support-textarea:focus {
-    border: 1px solid rgba(3, 10, 6, 0.15);
-    border-radius: 6px;
-    padding: 12px;
-    background: rgba(3, 10, 6, 0.05);
-    outline: transparent;  
-    transition: 0.3s linear;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  padding: 12px;
+  background: rgba(3, 10, 6, 0.05);
+  outline: transparent;
+  transition: 0.3s linear;
 }
 
 .support-input:focus {
-border: 1px solid rgba(3, 10, 6, 0.15);
-border-radius: 6px;
-padding: 8px 12px;
-width: 100%;
-height: 42px; 
-background: rgba(3, 10, 6, 0.05); 
-outline: transparent;  
-transition: 0.3s linear;
+  border: 1px solid rgba(3, 10, 6, 0.15);
+  border-radius: 6px;
+  padding: 8px 12px;
+  width: 100%;
+  height: 42px;
+  background: rgba(3, 10, 6, 0.05);
+  outline: transparent;
+  transition: 0.3s linear;
 }
 
 .support-input:focus::placeholder,
@@ -96,63 +96,62 @@ transition: 0.3s linear;
 }
 
 .text-error {
-font-weight: 400;
-font-size: 12px;
-line-height: 160%;
-color: #d64040;  
-display: none;  
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: #d64040;
+  display: none;
 }
 
 .support-input:not(:placeholder-shown):invalid ~ .text-error {
-display: block;    
+  display: block;
 }
-    
+
 .support-input:not(:placeholder-shown):invalid,
 .support-textarea:not(:placeholder-shown):invalid {
-border: 1px solid #d64040;
-border-radius: 6px;
-padding: 8px 12px;
-width: 100%;
-height: 42px;
-background: rgba(3, 10, 6, 0.05);
-color: #d64040;
+  border: 1px solid #d64040;
+  border-radius: 6px;
+  padding: 8px 12px;
+  width: 100%;
+  height: 42px;
+  background: rgba(3, 10, 6, 0.05);
+  color: #d64040;
 }
 
 .support-input:not(:placeholder-shown):valid,
 .support-textarea:not(:placeholder-shown):valid {
   border-color: green;
-   color: #030a06;
+  color: #030a06;
 }
 
-
 .support-button {
- padding: 12px 18px;
+  padding: 12px 18px;
   border-radius: 6px;
- background: #030a06;
+  background: #030a06;
   color: #fff;
   border: 1px solid #030a06;
-  width: 100%; 
-   height: 50px; 
-    font-size: 16px;
-     line-height: 1.6;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.6;
   align-items: center;
   justify-content: center;
-  white-space: nowrap; 
+  white-space: nowrap;
   display: flex;
   flex-direction: row;
   gap: 8px;
-   transition: background-color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .support-button:hover,
 .support-button:focus {
-opacity: 50%;
-outline: none;
+  opacity: 50%;
+  outline: none;
 }
 
 .support-button:active {
-background: #113916;
-transform: scale(0.97);
+  background: #113916;
+  transform: scale(0.97);
 }
 
 .support-button:disabled {
@@ -174,29 +173,26 @@ transform: scale(0.97);
 
 /* ----TABLET----- */
 
-
 @media screen and (min-width: 768px) {
+  .support {
+    padding: 64px 0;
+  }
 
-.support {
-padding: 64px 0;
-} 
+  .support-title {
+    width: 468px;
+  }
 
-.support-title {
-width: 468px;
-}
+  .support-button {
+    width: 249px;
+    margin: auto 0;
+  }
 
-.support-button {
-width: 249px; 
-margin: auto 0;  
-}
+  .support-right {
+    width: 100%;
+  }
 
-
-.support-right {
-  width: 100%;
-}
-
-.support-button {
-   align-items: center;
+  .support-button {
+    align-items: center;
     justify-content: center;
     white-space: nowrap;
     gap: 16px;
@@ -204,20 +200,15 @@ margin: auto 0;
     height: 50px;
     padding: 12px 24px;
     margin: 24px 0;
+  }
 }
-
-
-}
-
 
 /* ----DESKTOP---- */
 
-
 @media screen and (min-width: 1440px) {
-
-.support .container {
+  .support .container {
     display: flex;
-    
+
     justify-content: space-between;
   }
 
@@ -229,23 +220,23 @@ margin: auto 0;
     margin: 0;
   }
 
-   .support-label {
+  .support-label {
     font-size: 16px;
   }
 
   .support-right {
-     min-width: 644px;
+    min-width: 644px;
     margin-left: 24px;
   }
 
   .support-right img {
     width: 100%;
-    height: auto; 
-    border-radius: 40px; 
-}
+    height: auto;
+    border-radius: 40px;
+  }
 
-.support-button {
-   align-items: center;
+  .support-button {
+    align-items: center;
     justify-content: center;
     white-space: nowrap;
     gap: 16px;
@@ -253,15 +244,10 @@ margin: auto 0;
     height: 50px;
     padding: 12px 24px;
     margin: 24px 0;
+  }
+
+  .support-button:hover {
+    opacity: 50%;
+    transform: scale(1.03);
+  }
 }
-
-.support-button:hover {
- opacity: 50%;
-    transform: scale(1.03); 
-}
-
-
-
-}
-
-

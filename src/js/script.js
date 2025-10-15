@@ -19,11 +19,3 @@ menuLinks.forEach(link => {
     mobileMenu.classList.remove('is-open');
   });
 });
-
-// LAZY IMAGES LOAD
-const images = document.querySelectorAll('img');
-images.forEach(img => {
-  if (!img.hasAttribute('loading')) {
-    img.setAttribute('loading', 'lazy');
-  }
-});
